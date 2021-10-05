@@ -1,0 +1,9 @@
+# Composer
+composer.lock
+vendor
+
+# PHPUnit
+.phpunit.cache
+
+# OS files
+.DS_Store

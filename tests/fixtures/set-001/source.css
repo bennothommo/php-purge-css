@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+
+.square {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.square.red {
+    background: red;
+}
+
+.square .red {
+    color: red;
+}
+
+.square p.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.square::after {
+    content: 'Square';
+}
+
+.square .picture {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.message {
+    position: absolute;
+}
