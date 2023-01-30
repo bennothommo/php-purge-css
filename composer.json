@@ -1,6 +1,12 @@
 {
     "name": "bennothommo/php-purge-css",
     "description": "Purges unneeded CSS rules from a CSS file or input based on given HTML files or content.",
+    "authors": [
+        {
+            "name": "Ben Thomson",
+            "email": "git@alfreido.com"
+        }
+    ],
     "type": "library",
     "require": {
         "ivopetkov/html5-dom-document-php": "^2.2",
@@ -14,11 +20,5 @@
         "psr-4": {
             "BennoThommo\\PhpPurgeCss\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "Ben Thomson",
-            "email": "git@alfreido.com"
-        }
-    ]
+    }
 }
